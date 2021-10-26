@@ -1,6 +1,6 @@
 import https from 'https';
 
-async function get(url: https.RequestOptions | string | URL): Promise<string> {
+export async function get(url: https.RequestOptions | string | URL): Promise<string> {
 	return new Promise((resolve: Function, reject: Function) => {
 		https.get(url, res => {
 			res.setEncoding('utf-8');
