@@ -1,5 +1,5 @@
 {
-    "name": "simple-request",
+    "name": "@davidqf555/simple-request",
     "version": "1.0.0",
     "main": "index.js",
     "repository": {
