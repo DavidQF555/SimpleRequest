@@ -1,7 +1,8 @@
 {
     "name": "@davidqf555/simple-request",
-    "version": "1.0.2",
+    "version": "1.0.3",
     "main": "src/index.ts",
+    "type": "module",
     "repository": {
         "type": "git",
         "url": "git+https://github.com/DavidQF555/SimpleRequest.git"
