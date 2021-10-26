@@ -1,8 +1,8 @@
-import https from 'https';
+import { get as http_get, RequestOptions } from 'https';
 
-export async function get(url: https.RequestOptions | string | URL): Promise<any> {
+export async function get(url: RequestOptions | string | URL): Promise<any> {
 	return new Promise((resolve: Function, reject: Function) => {
-		https.get(url, res => {
+		http_get(url, res => {
 			res.setEncoding('utf-8');
 			let body = '';
 			res.on('data', data => {
