@@ -1,8 +1,9 @@
 {
     "name": "@davidqf555/simple-request",
-    "version": "1.0.3",
+    "version": "1.0.4",
     "main": "src/index.ts",
-    "type": "module",
+    "target": "esnext",
+    "module": "commonjs",
     "repository": {
         "type": "git",
         "url": "git+https://github.com/DavidQF555/SimpleRequest.git"
