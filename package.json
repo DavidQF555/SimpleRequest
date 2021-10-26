@@ -1,18 +1,19 @@
 {
     "name": "@davidqf555/simple-request",
-    "version": "1.0.0",
-    "main": "index.js",
+    "version": "1.0.1",
+    "main": "src/index.js",
     "repository": {
-      "type": "git",
-      "url": "git+https://github.com/DavidQF555/SimpleRequest.git"
+        "type": "git",
+        "url": "git+https://github.com/DavidQF555/SimpleRequest.git"
     },
     "author": "DavidQF555",
     "license": "GPLv3",
     "bugs": {
-      "url": "https://github.com/DavidQF555/SimpleRequest/issues"
+        "url": "https://github.com/DavidQF555/SimpleRequest/issues"
     },
     "homepage": "https://github.com/DavidQF555/SimpleRequest",
     "devDependencies": {
-      "eslint": "^7.32.0"
+        "@types/node": "^16.11.6",
+        "eslint": "^7.32.0"
     }
-  }
+}
