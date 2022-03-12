@@ -1,6 +1,6 @@
 import { get as http_get, RequestOptions } from 'https';
 
-export async function get(url: RequestOptions | string | URL, encoding: BufferEncoding): Promise<any> {
+export async function get(url: RequestOptions | string | URL, encoding: BufferEncoding): Promise<string> {
 	return new Promise((resolve: Function, reject: Function) => {
 		http_get(url, res => {
 			res.setEncoding(encoding);
@@ -9,7 +9,7 @@ export async function get(url: RequestOptions | string | URL, encoding: BufferEn
 				body += data;
 			});
 			res.on('end', () => {
-				resolve(JSON.parse(body));
+				resolve(body);
 			});
 
 		}).on('error', error => {
